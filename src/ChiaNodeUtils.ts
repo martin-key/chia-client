@@ -11,7 +11,7 @@ export const getChiaRootPath = (): string => {
 
   chiaRootPath = resolve(
     homedir(),
-    process.env["CHIA_ROOT"] || ".chia/mainnet"
+    process.env["CHAINGREEN_ROOT"] || ".chaingreen/mainnet"
   );
 
   return chiaRootPath;
